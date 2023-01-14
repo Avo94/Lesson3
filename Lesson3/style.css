@@ -1,0 +1,36 @@
+table, th, td .dashed-frame {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+.dashed {
+    border: 1px dashed gray;
+}
+
+.second:nth-child(1), .second:nth-child(5), .second:nth-child(9), .second:nth-child(13){
+    background-color: blue;
+}
+
+.second:nth-child(2), .second:nth-child(6), .second:nth-child(10), .second:nth-child(14){
+    background-color: rgb(28, 116, 167);
+}
+
+.second:nth-child(3), .second:nth-child(7), .second:nth-child(11), .second:nth-child(15){
+    background-color: aquamarine;
+}
+
+.second:nth-child(4), .second:nth-child(8), .second:nth-child(12), .second:nth-child(16){
+    background-color: rgb(161, 161, 161);
+}
+
+.third:first-child{
+    background-color: rgb(177, 139, 68);
+}
+.dashed, .dashed-frame{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
