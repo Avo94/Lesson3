@@ -23,7 +23,7 @@ th, td {
     background-color: aquamarine;
 }
 
-.second:nth-child(4n+4){
+.second:nth-child(4n){
     background-color: rgb(161, 161, 161);
 }
 
